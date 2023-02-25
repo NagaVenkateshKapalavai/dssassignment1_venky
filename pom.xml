@@ -141,6 +141,9 @@
                     <httpConnector>
                         <port>8080</port>
                     </httpConnector>
+                    <webApp>
+                        <contextPath>/api</contextPath>
+                    </webApp>
                     <stopKey>stop</stopKey>
                     <stopPort>8005</stopPort>
                     <forkWebXml>true</forkWebXml>
